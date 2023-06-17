@@ -38,58 +38,15 @@ jobs:
         with:
           cmd: build # will run `yarn build:prod` command
 
-      - name: Upload build artifacts
-        uses: actions/upload-artifact@v3
-        with:
-          name: build-artifact
-          path: |
-            build
-            !build/**/*.md
-          retention-days: 1
+      - name: Merge Current Build to Github Page
+        run: |
+          chmod -R 777 * && chmod -R 777 */*
+          rm -r -f ./docs/*
+          cp -r ./build/* ./docs
+  
+          git config --global user.email "atworksunil@gmail.com"
+          git config --global user.name "Yadav, Sunil"
 
-  # deploy:
-  #   name: Deploy
-  #   needs: build
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: Download build artifact
-  #       uses: actions/download-artifact@v3
-  #       with:
-  #         name: build-artifact
-  #         path: build
-
-  #     - shell: bash
-  #       run: |
-  #         ls -a
-      
-  #     # Git Init here, and Force Push to ysunil016.github.io repo
-  #     - name: Merge Current Build to Github Page
-  #       run: |
-  #         git clone https://${{ secrets._GITHUB_TOKEN }}@github.com/Ysunil016/ysunil016.github.io.git
-  #         chmod -R 777 * && chmod -R 777 */*
-  #         cd ysunil016.github.io
-  #         cp -r .git ../
-  #         rm -r -f *
-  #         cd ../ 
-  #         cp -r .git ./ysunil016.github.io
-  #         cp -r ./build/* ./ysunil016.github.io
-  #         cd ysunil016.github.io
-  #         date >> revision.txt 
-  #         ls -a
-
-  #     - name: Push Repo to Github Page
-  #       run: |
-  #         cd ysunil016.github.io
-  #         git config --global user.email "atworksunil@gmail.com"
-  #         git config --global user.name "Yadav, Sunil"
-
-  #         git add .
-  #         git commit -m "${GITHUB_SHA}"
-  #         git push -u origin main --force
-
-# git init
-# git add README.md
-# git commit -m "first commit"
-# git branch -M main
-# git remote add origin https://github.com/Ysunil016/ysunil016.github.io.git
-# git push -u origin main
+          git add .
+          git commit -m "${GITHUB_SHA}"
+          git push -u origin main --force
