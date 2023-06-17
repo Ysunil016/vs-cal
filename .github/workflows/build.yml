@@ -38,15 +38,15 @@ jobs:
         with:
           cmd: build # will run `yarn build:prod` command
 
-      - name: Merge Current Build to Github Page
-        run: |
-          chmod -R 777 * && chmod -R 777 */*
-          rm -r -f ./docs/*
-          cp -r ./build/* ./docs
+      # - name: Merge Current Build to Github Page
+      #   run: |
+      #     chmod -R 777 * && chmod -R 777 */*
+      #     rm -r -f ./docs/*
+      #     cp -r ./build/* ./docs
   
-          git config --global user.email "atworksunil@gmail.com"
-          git config --global user.name "Yadav, Sunil"
+      #     git config --global user.email "atworksunil@gmail.com"
+      #     git config --global user.name "Yadav, Sunil"
 
-          git add .
-          git commit -m "${GITHUB_SHA}"
-          git push -u origin main --force
+      #     git add .
+      #     git commit -m "${GITHUB_SHA}"
+      #     git push -u origin main --force
