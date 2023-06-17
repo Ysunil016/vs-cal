@@ -37,16 +37,52 @@ jobs:
         uses: borales/actions-yarn@v4
         with:
           cmd: build # will run `yarn build:prod` command
+      
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: build-artifact
+          path: |
+            build
+            !build/**/*.md
+          retention-days: 1
 
-      # - name: Merge Current Build to Github Page
-      #   run: |
-      #     chmod -R 777 * && chmod -R 777 */*
-      #     rm -r -f ./docs/*
-      #     cp -r ./build/* ./docs
-  
-      #     git config --global user.email "atworksunil@gmail.com"
-      #     git config --global user.name "Yadav, Sunil"
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: build-artifact
+          path: build
 
-      #     git add .
-      #     git commit -m "${GITHUB_SHA}"
-      #     git push -u origin main --force
+      - shell: bash
+        run: |
+          ls -a
+      
+      # Git Init here, and Force Push to vs-cal-pub repo
+      - name: Merge Current Build to Github Page
+        run: |
+          git clone https://${{ secrets._GITHUB_TOKEN }}@git@github.com:Ysunil016/vs-cal-pub.git
+          chmod -R 777 * && chmod -R 777 */*
+          cd vs-cal-pub
+          cp -r .git ../
+          rm -r -f *
+          cd ../ 
+          cp -r .git ./vs-cal-pub
+          cp -r ./build/* ./vs-cal-pub
+          cd vs-cal-pub
+          date >> revision.txt 
+          ls -a
+
+      - name: Push Repo to Github Page
+        run: |
+          cd vs-cal-pub
+          git config --global user.email "atworksunil@gmail.com"
+          git config --global user.name "Yadav, Sunil"
+
+          git add .
+          git commit -m "${GITHUB_SHA}"
+          git push -u origin main --force
