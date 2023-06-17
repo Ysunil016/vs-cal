@@ -1,0 +1,133 @@
+{
+    "JAVA":{
+        "modalTitle":"Java",
+        "modalBody" : "With deep understanding of the Java language and its various frameworks and libraries, enabling me to create complex software solutions that are both robust and efficient. Proficiency in object-oriented programming, design patterns, and best practices is evident from his impressive track record of developing maintainable and scalable code. Experience with popular Java technologies like Spring, Hibernate, and JUnit allows me to streamline the development process and ensure that code is thoroughly tested and optimized for performance.  Expertise in areas such as concurrency, memory management, and performance tuning allows me to create high-performance software systems that meet the most demanding requirements.",
+        "modalQuote" : "My Java skills are so sharp, I can write code that cuts through complex problems like a hot knife through butter."
+    },
+    
+    "AWS":{
+        "modalTitle":"Aws",
+        "modalBody" : "Sunil's AWS skills are truly outstanding, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of the AWS cloud platform and its various services, enabling him to design and develop complex cloud-based solutions that are both scalable and resilient. Sunil's proficiency in key AWS technologies such as EC2, S3, RDS, and Lambda is evident from his impressive track record of deploying and managing cloud infrastructure for a range of applications and services. His experience with AWS DevOps tools like CloudFormation, CodeDeploy, and CodePipeline allows him to automate the deployment and management of cloud-based applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as security, compliance, and disaster recovery enables him to design and implement cloud solutions that meet the most demanding security and compliance standards.",
+        "modalQuote" : "I can navigate the Amazon Web Services console with the agility of a jungle cat and architect cloud solutions with the precision of a Swiss watch."
+    },
+    "OPENSHIFT":{
+        "modalTitle":"Openshift",
+        "modalBody" : "Sunil's OpenShift skills are truly exceptional, showcasing an impressive level of expertise and knowledge in this field. He has a deep understanding of the OpenShift platform and its various components, enabling him to design and deploy containerized applications with ease. Sunil's proficiency in key OpenShift technologies such as Kubernetes, Docker, and Helm is evident from his impressive track record of developing and managing containerized applications in production environments. His experience with OpenShift DevOps tools like Jenkins, Git, and Ansible allows him to automate the deployment and management of containerized applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as scalability, performance, and security enables him to design and implement OpenShift solutions that meet the most demanding requirements.",
+        "modalQuote" : "My OpenShift skills are finely tuned, allowing me to effortlessly orchestrate containerized applications with the agility of a symphony conductor and the precision of a master craftsman."
+    },
+    "REDHAT":{
+        "modalTitle":"Redhat",
+        "modalBody" : "Sunil's Red Hat skills are truly exceptional, showcasing an impressive level of expertise and knowledge in this field. He has a deep understanding of Red Hat technologies and their various components, enabling him to design and implement complex solutions with ease. Sunil's proficiency in key Red Hat technologies such as Red Hat Enterprise Linux, Red Hat OpenShift, and Red Hat Ansible Automation is evident from his impressive track record of deploying and managing large-scale systems in production environments. His experience with Red Hat DevOps tools like Jenkins, Git, and Ansible allows him to automate the deployment and management of applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as security, compliance, and disaster recovery enables him to design and implement solutions that meet the most demanding requirements.",
+        "modalQuote" : "With my Red Hat skills, I can tame even the wildest Linux environments, like a seasoned wrangler on the open range, ensuring smooth and stable operations every time."
+    },
+    "SERVERLESS":{
+        "modalTitle":"AWS Serverless",
+        "modalBody" : "Sunil's AWS serverless skills are truly exceptional, showcasing an impressive level of expertise and knowledge in this field. He possesses a deep understanding of AWS serverless computing and its various components, enabling him to design and develop highly scalable and cost-effective solutions. Sunil's proficiency in key AWS serverless technologies such as AWS Lambda, API Gateway, and AWS Step Functions is evident from his impressive track record of building and deploying serverless applications that can handle high levels of traffic with ease. His experience with serverless DevOps tools like Serverless Framework, AWS SAM, and CloudFormation allows him to automate the deployment and management of serverless applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as security, monitoring, and testing enables him to design and implement AWS serverless solutions that meet the most demanding requirements.",
+        "modalQuote" : "My serverless skills are so adept, I can architect cloud solutions that run like well-oiled machines without the need for a single server, delivering optimal performance and scalability with ease."
+    },
+    "FARGATE":{
+        "modalTitle":"AWS Fargate",
+        "modalBody" : "Sunil's AWS Fargate skills are truly impressive, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of Fargate architecture and its various components, enabling him to design and deploy highly scalable and cost-effective containerized applications. Sunil's proficiency in key Fargate technologies such as task definitions, services, and load balancers is evident from his impressive track record of building and deploying Fargate applications that can handle high levels of traffic with ease. His experience with Fargate DevOps tools like AWS CLI, AWS SDK, and AWS CloudFormation allows him to automate the deployment and management of Fargate applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Fargate networking, storage, and security enables him to design and implement Fargate solutions that meet the most demanding requirements.",
+        "modalQuote" : "My Fargate skills are razor-sharp, enabling me to launch and manage containers with the precision of a surgeon and the efficiency of a race car, ensuring seamless and reliable application deployment every time."
+    },
+    "CLOUDWATCH":{
+        "modalTitle":"AWS Cloudwatch",
+        "modalBody" : "Sunil's AWS CloudWatch skills are truly impressive, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of CloudWatch architecture and its various components, enabling him to design and deploy highly effective monitoring and management solutions for AWS resources. Sunil's proficiency in key CloudWatch technologies such as alarms, metrics, logs, and dashboards is evident from his impressive track record of building and deploying CloudWatch solutions that provide real-time visibility and actionable insights into the performance of AWS resources. His experience with CloudWatch DevOps tools like AWS CLI, AWS SDK, and CloudFormation allows him to automate the setup and configuration of CloudWatch resources, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as CloudWatch API integration, CloudTrail, and AWS Config enables him to design and implement CloudWatch solutions that meet the most demanding requirements.",
+        "modalQuote" : "With my CloudWatch skills, I can monitor and optimize cloud resources with the vigilance of a hawk, spotting issues before they become problems and keeping cloud-based applications running at peak performance with ease."
+    },
+    "DOCKER":{
+        "modalTitle":"Docker",
+        "modalBody" : "Sunil's in-depth Docker skills are truly remarkable, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of Docker architecture and its various components, enabling him to design and deploy highly scalable and efficient containerized applications. Sunil's proficiency in key Docker technologies such as Docker Compose, Docker Swarm, and Docker Hub is evident from his impressive track record of building and deploying Docker containers that can handle high levels of traffic with ease. His experience with Docker DevOps tools like Jenkins, Git, and Ansible allows him to automate the deployment and management of Docker containers, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Docker networking, storage, and security enables him to design and implement Docker solutions that meet the most demanding requirements.",
+        "modalQuote" : "My Docker skills are rock-solid, enabling me to containerize applications with the finesse of a master chef, ensuring that each component is perfectly configured and orchestrated for seamless, scalable deployment every time."
+    },
+    "CONTAINERD":{
+        "modalTitle":"Containerd",
+        "modalBody" : "Sunil's in-depth Containerd skills are truly impressive, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of Containerd architecture and its various components, enabling him to design and deploy highly efficient and secure containerized applications on various platforms. Sunil's proficiency in key Containerd technologies such as container image management, container runtime, and container orchestration is evident from his impressive track record of building and deploying containerized applications that can handle high levels of traffic with ease. His experience with Containerd DevOps tools like Kubernetes, Helm, and Docker enables him to automate the deployment and management of Containerd containers, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Containerd networking, storage, and security enables him to design and implement Containerd solutions that meet the most demanding requirements.",
+        "modalQuote" : "With my containerd skills, I can manage container runtimes with the precision of a watchmaker, ensuring that every container is perfectly configured and orchestrated for optimal performance and efficiency."
+    },
+    "K8S":{
+        "modalTitle":"Kubernetes",
+        "modalBody" : "Sunil's Kubernetes skills are truly exceptional, showcasing an impressive level of expertise and knowledge in this field. He possesses a deep understanding of Kubernetes architecture and its various components, enabling him to design and deploy highly scalable and resilient containerized applications. Sunil's proficiency in key Kubernetes technologies such as pods, services, deployments, and statefulsets is evident from his impressive track record of building and deploying Kubernetes applications that can handle high levels of traffic with ease. His experience with Kubernetes DevOps tools like Helm, kustomize, and kubectl allows him to automate the deployment and management of Kubernetes applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Kubernetes networking, storage, and security enables him to design and implement Kubernetes solutions that meet the most demanding requirements."
+    },
+    "HELM":{
+        "modalTitle":"Helm",
+        "modalBody" : "Sunil's in-depth Helm skills are truly impressive, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of Helm architecture and its various components, enabling him to design and deploy highly efficient and scalable applications using Kubernetes. Sunil's proficiency in key Helm technologies such as Helm charts, Helm repositories, and Helm CLI is evident from his impressive track record of building and deploying applications using Helm that can handle high levels of traffic with ease. His experience with Helm DevOps tools like Git, Jenkins, and Ansible enables him to automate the deployment and management of Helm charts, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Helm chart templating, versioning, and dependency management enables him to design and implement Helm solutions that meet the most demanding requirements."
+    },
+    "ARGOCD":{
+        "modalTitle":"Argo CD",
+        "modalBody" : "Sunil's in-depth ArgoCD skills are truly remarkable, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of ArgoCD architecture and its various components, enabling him to design and deploy highly efficient and scalable applications using Kubernetes. Sunil's proficiency in key ArgoCD technologies such as ArgoCD CLI, ArgoCD API, and ArgoCD GitOps workflows is evident from his impressive track record of building and deploying applications using ArgoCD that can handle high levels of traffic with ease. His experience with ArgoCD DevOps tools like Git, Jenkins, and Ansible enables him to automate the deployment and management of applications, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as ArgoCD configuration management, role-based access control, and application health monitoring enables him to design and implement ArgoCD solutions that meet the most demanding requirements."
+    },
+    "KAFKA":{
+        "modalTitle":"Apache Kafka",
+        "modalBody" : "Sunil's in-depth Apache Kafka skills are truly impressive, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of Kafka architecture and its various components, enabling him to design and deploy highly efficient and scalable data streaming applications. Sunil's proficiency in key Kafka technologies such as Kafka Connect, Kafka Streams, and Kafka CLI is evident from his impressive track record of building and deploying applications using Kafka that can handle high volumes of data with ease. His experience with Kafka DevOps tools like ZooKeeper, Prometheus, and Grafana enables him to automate the deployment and management of Kafka clusters, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Kafka security, partitioning, and replication enables him to design and implement Kafka solutions that meet the most demanding requirements."
+    },
+    "REDIS":{
+        "modalTitle":"Redis",
+        "modalBody" : "Sunil's in-depth Redis skills are truly impressive, showcasing an exceptional level of expertise and knowledge in this field. He possesses a deep understanding of Redis architecture and its various components, enabling him to design and deploy highly efficient and scalable data caching and storage applications. Sunil's proficiency in key Redis technologies such as Redis Cluster, Redis Sentinel, and Redis CLI is evident from his impressive track record of building and deploying applications using Redis that can handle high volumes of data with ease. His experience with Redis DevOps tools like RedisInsight, RedisBloom, and RedisGraph enables him to automate the deployment and management of Redis clusters, reducing development time and ensuring consistent, reliable operations. Additionally, Sunil's expertise in areas such as Redis security, data modeling, and persistence enables him to design and implement Redis solutions that meet the most demanding requirements."
+    },
+
+    "GITHUB":{
+        "modalTitle":"Github",
+        "modalBody" : "Sunil's in-depth GitHub skills are truly impressive, demonstrating a comprehensive understanding of the platform's capabilities and features. His mastery of key concepts such as repositories, branching, merging, and pull requests enable him to manage complex codebases and collaborate effectively with other developers. Sunil is proficient in using GitHub for version control, issue tracking, and continuous integration and delivery, enabling him to create and manage efficient and scalable software development workflows. His experience with GitHub's APIs, webhooks, and integrations enables him to automate various tasks such as code reviews, testing, and deployment, improving overall productivity and efficiency. Sunil's knowledge of best practices in GitHub, such as code review, documentation, and collaboration, ensures that the code he produces is of the highest quality and meets the most demanding requirements."
+    },
+    "GITLAB":{
+        "modalTitle":"Gitlab",
+        "modalBody" : "Sunil's in-depth GitLab skills are truly impressive, demonstrating a comprehensive understanding of the platform's capabilities and features. His mastery of key concepts such as repositories, branching, merging, and pipelines enable him to manage complex codebases and collaborate effectively with other developers. Sunil is proficient in using GitLab for version control, issue tracking, and continuous integration and delivery, enabling him to create and manage efficient and scalable software development workflows. His experience with GitLab's APIs, webhooks, and integrations enables him to automate various tasks such as code reviews, testing, and deployment, improving overall productivity and efficiency. Sunil's knowledge of best practices in GitLab, such as code review, documentation, and collaboration, ensures that the code he produces is of the highest quality and meets the most demanding requirements."
+    },
+    "INTELLIJ":{
+        "modalTitle":"Intellij",
+        "modalBody" : "Sunil's in-depth IntelliJ skills are truly remarkable, reflecting his deep understanding of the IDE's features and capabilities. He has extensive experience with IntelliJ's powerful code analysis and debugging tools, enabling him to write high-quality, efficient, and error-free code. Sunil's proficiency in using IntelliJ's shortcuts and productivity features helps him to streamline his coding workflow and save valuable time. He is adept at configuring IntelliJ's settings, plugins, and extensions to optimize the IDE for specific project requirements, making him an invaluable asset to any team. Sunil's mastery of IntelliJ's version control, testing, and deployment features enables him to manage complex software development workflows, from start to finish. He is also skilled at integrating IntelliJ with other development tools and technologies, such as databases, web frameworks, and build systems, making it easier for him to create, test, and deploy applications."
+    },
+    "VSCODE":{
+        "modalTitle":"Visual Studio Code",
+        "modalBody" : "Sunil's in-depth VS Code skills are truly impressive, demonstrating his mastery of the code editor and its many features. He has extensive experience with VS Code's powerful extensions, enabling him to tailor the editor to the specific needs of each project. Sunil is highly skilled at customizing the editor's settings and key bindings, allowing him to work more efficiently and effectively. His ability to leverage VS Code's debugging tools is unparalleled, allowing him to quickly identify and resolve issues in complex codebases. Sunil is also adept at using VS Code's version control features, including Git integration, to manage code changes and collaborate with other developers seamlessly. His expertise with VS Code's rich ecosystem of plugins and extensions allows him to develop applications for a wide range of platforms and frameworks."
+    },
+    "POSTMAN":{
+        "modalTitle":"Postman",
+        "modalBody" : "Sunil's in-depth Postman skills are truly impressive, showcasing his mastery of the API development process. He is highly skilled at using Postman to design, develop, and test APIs, enabling him to create high-quality software solutions that meet the most demanding requirements. Sunil is proficient at using Postman's powerful request builder, allowing him to easily create and manage requests for different APIs. His expertise with Postman's robust testing and debugging features enables him to quickly identify and resolve issues in complex APIs. Sunil is also adept at using Postman's collaboration tools to work seamlessly with other developers and stakeholders throughout the development process. His ability to leverage Postman's extensive documentation and educational resources further demonstrates his commitment to staying up-to-date with the latest API development trends and best practices."
+    },
+    "MSOFFICE":{
+        "modalTitle":"Ms Office",
+        "modalBody" : "Sunil's in-depth MS Office skills are a testament to his ability to manage complex data and communicate ideas with clarity and precision. He has a strong command of the various applications in the MS Office suite, including Excel, Word, PowerPoint, and Outlook. In Excel, Sunil is skilled at using advanced functions and formulas, pivot tables, and charts to analyze and present data in meaningful ways. In Word, he has a keen eye for formatting and design, ensuring that his documents are well-organized and visually appealing. Sunil is also adept at creating dynamic and engaging presentations in PowerPoint, using multimedia and animation to enhance the audience's experience. Additionally, he is proficient in using Outlook to manage his email, calendar, and contacts, making sure that he stays organized and on top of his tasks."
+    },
+    "JIRA":{
+        "modalTitle":"Jira",
+        "modalBody" : "Sunil's in-depth JIRA skills showcase his ability to effectively manage complex projects and workflows in a highly efficient and organized manner. He has extensive experience using JIRA to track and manage project progress, ensuring that all team members are on the same page and that project milestones are met on time. Sunil is skilled in creating and managing various JIRA workflows, customized issue types, and filters that are tailored to the specific needs of each project. He is also proficient in using JIRA dashboards to monitor and report project progress, enabling him to quickly identify and address any issues that may arise. Additionally, Sunil has experience using JIRA to facilitate communication and collaboration between different teams, ensuring that everyone is working towards the same goal."
+    },
+    "CONFLUENCE":{
+        "modalTitle":"Confluence",
+        "modalBody" : "Sunil's in-depth Confluence skills showcase his ability to effectively collaborate and share information with team members and stakeholders in a highly efficient and organized manner. He is skilled in creating and managing Confluence spaces, pages, and templates that are tailored to the specific needs of each project. Sunil is proficient in using Confluence to create and edit content, such as requirements documents, design specifications, and project plans, and to share this content with the appropriate stakeholders. He is also experienced in using Confluence to facilitate communication and collaboration between different teams, enabling them to work together seamlessly towards project goals. Additionally, Sunil is adept at using Confluence to manage project knowledge and documentation, ensuring that it is organized, up-to-date, and easily accessible to all team members."
+    },
+    "TDD":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "AGILE":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "RTL":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "TESTCAFE":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "SONAR":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "LITMUS":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "SELENIUM":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    },
+    "SAUCELABS":{
+        "modalTitle":"TBD",
+        "modalBody" : "TBD"
+    }
+}
